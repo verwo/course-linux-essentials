@@ -3,7 +3,8 @@ description: ....
 title: Introduction to Linux
 ---
 
-<slides link="/slides/slides-chapter-01" />
+![Slides](./slides/slides-chapter-01.pdf)
+<slides link="/slides/slides-chapter-01.pdf" />
 
 # Introduction to Linux
 
