@@ -112,11 +112,6 @@ module.exports = {
     docsDir: 'docs',
     docsBranch: 'master'
   }),
-  plugins: {
-    mdEnhance: {
-      presentation: true,
-    },
-  },
   serviceWorker: true,
   plugins: [
     containerPlugin({
