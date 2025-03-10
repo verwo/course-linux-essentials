@@ -8,7 +8,7 @@ module.exports = {
   title: 'Linux Essentials',
   description: 'Linux Essentials Course for VIVES University of Applied Sciences (Bachelor Degree)',
 
-  theme: defaultTheme({
+  theme: hopeTheme({
     logo: '/images/linux.png',
     navbar: [
       { text: 'Toledo', link: 'https://toledo.kuleuven.be/portal' },
@@ -112,6 +112,11 @@ module.exports = {
     docsDir: 'docs',
     docsBranch: 'master'
   }),
+  plugins: {
+    mdEnhance: {
+      presentation: true,
+    },
+  },
   serviceWorker: true,
   plugins: [
     containerPlugin({
