@@ -21,7 +21,7 @@ module.exports = {
         link: '/about-this-course/README.md',
       },
       {
-        text: 'Introduction to Programming',
+        text: 'Introduction to linux',
         children: [
           '/a-introductory/01-introduction-to-linux/README.md',
           '/a-introductory/02-start-using-linux/README.md',
